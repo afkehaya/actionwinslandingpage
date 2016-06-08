@@ -1,0 +1,54 @@
+
+/*======================= 
+  
+    left tools
+      
+=======================*/ 
+
+#left-tools{
+	height: 100%;
+	/*min-height: 1400px;*/
+	position: absolute;
+	top: 0;
+	width: 88px;
+	background: #0fbed7;
+	position: fixed;
+}
+
+#logo{
+	padding: 20px;
+	text-align: center;
+}
+#logo img{
+	width: 100%;
+	max-width: 100%;
+
+}
+
+#selectors-list{
+	background: #162c63;
+	height: 100%;
+}
+
+#selectors-list .nav-list{
+	padding: 40px 0 0 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#selectors-list .nav-list li{
+	text-align: center;
+}
+#selectors-list .nav-list li span{
+	/*background: white;*/
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+#selectors-list .nav-list li img{
+	width: 100%;
+}
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 694 282" enable-background="new 0 0 694 282" xml:space="preserve">
+<g id="Layer_2" display="none">
+	<rect x="-83.4" y="-56.1" display="inline" fill="#0000FF" stroke="#000000" stroke-miterlimit="10" width="667" height="508"/>
+</g>
+<g id="Layer_1">
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="140.6" cy="141" r="137"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			
+				<rect x="23.9" y="142.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -99.7586 132.0827)" opacity="0.31" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="171.2" height="87.8"/>
+			
+				<rect x="53.5" y="130.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -111.9846 161.599)" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="171.2" height="171.2"/>
+			
+				<rect x="157.6" y="175" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -94.565 205.1623)" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="85.6" height="83.5"/>
+			
+				<rect x="23.9" y="142.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -99.7586 132.0827)" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="171.2" height="87.8"/>
+		</g>
+		
+			<use xlink:href="#SVGID_1_"  overflow="visible" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+	</g>
+	<text transform="matrix(1 0 0 1 304.2502 163.5216)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'OpenSans-Light'" font-size="78.3761">action</tspan><tspan x="214.9" y="0" fill="#FFFFFF" font-family="'OpenSans-Semibold'" font-size="78.3761">wins</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+
+/*
+
+blueish
+#0fbed7
+
+*/
+
+body{
+	font-family : 'Open Sans';
+}
+
+.light-green-bg{
+	background-color: #bbeabc;
+}
+
+.brand-light-blue-bg{
+	background-color: #7ca2e5;
+}
+
+.notfinished-circle{
+	background-color: #ffffff;
+	border: solid 1px #bbeabc;
+	color: #8c9bb5 !important;
+	opacity: 0.4;
+}
+/* ugh center replace with flexbox */
+.notfinished-circle span{
+	left: 9px !important; 
+	top: 3px !important;
+}

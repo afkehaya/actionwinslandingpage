@@ -1,0 +1,15 @@
+
+#chart-grapth{
+    
+}
+#chart-grapth img{
+    max-height: 260px;
+}
+#chart-grapth h2{
+    font-size: 14px;
+    color: #112f99;
+    font-weight: 300;
+    /*padding-left: 60px;*/
+    text-align: center;
+    margin-left: -170px;
+}

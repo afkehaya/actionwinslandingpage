@@ -1,0 +1,348 @@
+
+
+/*=======================
+
+    bubble views
+
+=======================*/
+
+#bubble-wrapper-mobile{
+	position: relative;
+	width: 490px;
+	height: 700px;
+	margin: 0 auto;
+	background: image-url("iphone-temp.jpg");
+}
+
+/* just to align for phone and desktop */
+#bubble-wrapper-mobile #bubble-open {
+	position: absolute;
+	top: 120px;
+	left: 34px;
+	width: 420px;
+	height: 580px;
+	background: orange;
+	/*opacity: 0.5;*/
+	background: image-url("mobile-phone-blur.png") center center;
+	background-size: 100%;
+}
+
+#bubble-wrapper-desktop #bubble-open {
+	position: absolute;
+	bottom: 0;
+	right: 34px;
+	width: 420px;
+	height: 739px;
+	/*background: orange;*/
+	/*opacity: 0.5;*/
+	/*background: url(../images/desktop-site.jpg) center center;*/
+	/*background-size: 100%;*/
+}
+div.full-site-image{
+	background: image-url('desktop-site.jpg') top left no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	min-height: 100%;
+	margin-top: -20px;
+	background-color:transparent;
+	z-index:-1;
+}
+
+.bubble-bg {
+	height:100%;
+	width: 100%;
+}
+
+
+/*=======================
+
+    dialog
+
+=======================*/
+
+
+#bubble-open #dialog{
+	background: white;
+	border-radius: 8px;
+	/*border: solid 1px green;*/
+	height: 550px;
+	position: relative;
+	/*width: 98%;*/
+	width: 96%;
+	margin: 0 auto;
+	margin-top: 114px;
+	padding: 22px 12px 12px 12px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.53);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.53);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.53);
+}
+
+
+/*=======================
+
+    opening messages
+
+=======================*/
+
+#bubble-open #avatar-message .face{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	float: left;
+	margin: 0 4px 0 0;
+	border: solid 1px rgba(76, 137, 211, 0.28);
+}
+#bubble-open #avatar-message .message{
+	width: 299px;
+	float: left;
+	/*margin: 0 4px 0 0;*/
+	font-size : 16px;
+	color : rgb(23, 18, 119);
+	font-weight: 600;
+	/* border: solid; */
+	padding-left: 18px;
+	padding-top: 8px;
+}
+#bubble-open #avatar-message .message p{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*=======================
+
+    rewards
+
+=======================*/
+
+#bubble-open #rewards{
+	margin-top: 20px;
+}
+#bubble-open #rewards ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#bubble-open #rewards ul li{
+	border-bottom: solid 1px rgba(158, 170, 192, 0.2);
+	padding-bottom: 4px;
+	padding-top: 5px
+}
+#bubble-open #rewards ul li span.text{
+	padding-left: 22px;
+	font-size : 14px;
+	color : #112F99;
+	font-weight: 400;
+}
+
+#bubble-open #rewards ul li span.callout{
+	padding-left: 22px;
+	font-size : 18px;
+	color : #112F99;
+	font-weight: 600;
+}
+
+
+
+/*=======================
+
+    input box
+
+=======================*/
+
+
+#bubble-open #inputbox{
+	border-radius: 8px;
+	background: #F2F4F7;
+	color: #8A8B96;
+	padding: 30px 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+
+/*=======================
+
+    social media
+
+=======================*/
+
+
+
+/*=======================
+
+    social media
+
+=======================*/
+
+#bubble-open #socialmedia{
+	color: #112f99;
+	margin-top: 20px;
+	padding-left: 36px;
+}
+#bubble-open #socialmedia .title{
+	/*color: #112f99;*/
+	font-size: 0.8em;
+	font-weight: 400;
+	display: none;
+	/*padding-left: 60px;*/
+	/*text-align: center;*/
+}
+
+#bubble-open #socialmedia .social-button{
+	float: left;
+	/*width: 70px;*/
+	margin-right: 28px;
+	text-align: center;
+}
+#bubble-open #socialmedia .social-button .number{
+	font-size: 25px;
+	/*color: #112f99;*/
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+}
+#bubble-open #socialmedia .social-button .icon{
+
+	width: 40px;
+	height: 40px;
+	border: solid 1px #112f99;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+
+/*=======================
+
+    submit button
+
+=======================*/
+
+#bubble-open .submit-button{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#bubble-open .submit-button span{
+    padding: 17px 20px;
+    color: white;
+    font-weight: 700;
+    background-color: #335A99;
+    border-radius: 8px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+
+
+#bubble-open #referred-count{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+	color: rgb(255, 157, 22);
+	font-weight: 700;
+	font-size: 28px;
+	text-align: center;
+
+
+
+}
+
+
+
+
+/*=======================
+
+    speech bubble
+
+=======================*/
+#speechbubble-avatar{
+	position: absolute;
+	bottom: 0%;
+	right: 5%;
+}
+
+#speechbubble-avatar .bubble
+{
+	position: relative;
+	width: 190px;
+	padding: 0px;
+	background: #FFFFFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: #7390E0 solid 1px;
+
+	height: 70px;
+float: left;
+}
+
+#speechbubble-avatar .bubble:after
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 11px 0 11px 16px;
+	border-color: transparent #FFFFFF;
+	display: block;
+	width: 0;
+	z-index: 1;
+	right: -16px;
+	top: 21px;
+}
+
+#speechbubble-avatar .bubble:before
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 11px 0 11px 16px;
+	border-color: transparent #7390E0;
+	display: block;
+	width: 0;
+	z-index: 0;
+	right: -17px;
+	top: 21px;
+}
+
+#speechbubble-avatar .message{
+	font-size : 12px;
+	color : rgb(23, 18, 119);
+	font-weight: 300;
+	/* padding-left: 18px; */
+	/* padding-top: 8px; */
+	text-align: right;
+	padding: 14px 16px;
+	display: block;
+}
+
+#speechbubble-avatar .face{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	float: left;
+	margin: 0 4px 0 0;
+	/*border: solid 2px rgba(76, 137, 211,1);*/
+	border: solid 1px #7390E0;
+	float: left;
+	margin-left: 20px;
+}
+#speechbubble-avatar .notification-circle{
+	background: red;
+	font-weight: 600;
+	font-size: 12px;
+	border-radius: 100%;
+	position: absolute;
+	padding-top: 3px;
+	width: 22px;
+	height: 22px;
+	color: white;
+	text-align: center;
+	top: -4px;
+	right: 3px;
+}

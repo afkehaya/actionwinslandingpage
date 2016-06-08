@@ -1,0 +1,26 @@
+/*======================= 
+  
+    data-numbers-group
+      
+=======================*/ 
+#data-numbers-group ul{
+	list-style-type: none;
+	padding-left: 20px;
+}
+#data-numbers-group ul li{
+	float: left;
+	width: 170px;
+	/*border: solid 1px green;*/
+	margin: 4px;
+	color: #112f99;
+}
+#data-numbers-group ul li .value{
+	margin: 0;
+	font-size: 25px;
+	font-weight: 700;
+}
+#data-numbers-group ul li .label{
+	margin: 0;
+	font-size: 0.8em;
+	font-weight: 400;
+}

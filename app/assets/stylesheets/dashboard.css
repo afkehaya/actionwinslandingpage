@@ -1,0 +1,268 @@
+
+
+/*=======================
+
+    dashboard
+
+=======================*/
+
+
+#dashboard{
+	width: 100%;
+	padding-left: 88px;
+	padding-bottom: 100px;
+}
+
+#dashboard #toolbar{
+
+	padding-top: 88px;
+	background-color: #d8e1ef;
+	/*height: 88px;*/
+}
+
+
+
+.section{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+}
+
+#header-bar-dash {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0fbed7+0,00aae2+80 */
+	background: #0fbed7; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #0fbed7 0%, #00aae2 80%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #0fbed7 0%,#00aae2 80%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #0fbed7 0%,#00aae2 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	width: 100%;
+	height: 88px;
+
+	position: relative;
+	display:inline-block;
+}
+
+#header-bar-dash #logo-and-nav{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 980px;
+	max-width: 1060px;
+}
+
+#header-bar-dash #logo-with-title{
+	/* background: green; */
+	width: 60px;
+	padding: 0;
+	margin: 10px 0 0 10px;
+	float: left;
+}
+#header-bar-dash #logo-with-title img{
+	/*width: 100px;*/
+	max-width: 100%;
+}
+
+
+#header-bar-dash #logo-with-title-at-right{
+	/* background: green; */
+	width: 170px;
+	padding: 0;
+	margin: 10px 0 0 10px;
+	float: left;
+}
+#header-bar-dash #logo-with-title-at-right img{
+	/*width: 100px;*/
+	max-width: 100%;
+}
+
+
+#header-bar-dash #header-nav{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	float: right;
+	padding-top: 34px;
+	margin-right: 10px;
+}
+
+#header-bar-dash #header-nav li{
+	display: inline-block;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 300;
+	margin-left: 20px;
+}
+#header-bar-dash #header-nav li.highlight-button span{
+	padding: 10px 20px;
+	color: white;
+	font-weight: 700;
+	background-color: #efb32e;
+	border-radius: 8px;
+	font-size: 14px;
+}
+/*=======================
+
+    options
+
+=======================*/
+
+
+#dashboard .options{
+	background-color: #7ca2e5;
+	padding-top: 27px;
+	padding-left: 10px;
+	height: 88px;
+	/*top: 88px;*/
+	position: relative;
+}
+#dashboard .options #referrals{
+}
+#dashboard .options #conversions{
+}
+#dashboard .options #datarange{
+}
+
+#dashboard .options .longbox{
+	display: inline-block;
+	padding: 6px 72px 6px 8px;
+	border: solid 1px #8799AA;
+	border-radius: 4px;
+	font-size: 12px;
+	/*width: 32%;*/
+	background: #fff;
+
+	font-weight : 400;
+	font-size : 12px;
+	color : #8799AA;
+	position: relative;
+}
+
+#dashboard .options .longbox::before{
+	display: block;
+	position: absolute;
+	content: '';
+	background: url(../images/grey-arrow-down.svg) no-repeat;
+	width: 12px;
+	height: 12px;
+	/* border: solid 1px green; */
+	z-index: 12;
+	right: 8px;
+	top: 12px;
+}
+
+
+/* submit button */
+
+
+#dashboard .options .submit-button{
+	position: absolute;
+	right: 10px;
+	top: 30px;
+	/*background-color: green;*/
+}
+#dashboard .options .submit-button span{
+	padding: 10px 60px 10px 14px;
+	color: white;
+	font-weight: 700;
+	background-color: #efb32e;
+	border-radius: 4px;
+	font-size: 14px;
+}
+#dashboard .options .submit-button::before{
+	display: block;
+	position: absolute;
+	content: '';
+	background: url(../images/download-icon.svg) no-repeat;
+	width: 32px;
+	height: 32px;
+	z-index: 12;
+	right: 8px;
+	top: 0px;
+}
+
+
+
+
+
+
+/*=======================
+
+    charts1
+
+=======================*/
+
+#charts1{
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+#charts1 .left{
+	width: 50%;
+	float: left;
+}
+#charts1 .right{
+	width: 50%;
+	float: left;
+}
+#charts1 .wrapper {
+	/*padding: 10px;*/
+	/*max-height: 240px;*/
+	/*border: solid 1px green;*/
+}
+#charts1 .wrapper img{
+	width: 100%;
+	height: 100%;
+	max-height: 240px;
+}
+#charts1 .wrapper h2 {
+	font-size: 14px;
+	color: #112f99;
+	font-weight: 300;
+	/*padding-left: 60px;*/
+	text-align: center;
+	margin-left: -170px;
+}
+
+
+
+
+
+/*=======================
+
+    social media
+
+=======================*/
+
+#socialmedia{
+	color: #112f99;
+	/*margin-top: 20px;*/
+}
+#socialmedia .title{
+	/*color: #112f99;*/
+	font-size: 0.8em;
+	font-weight: 400;
+	display: none;
+	/*padding-left: 60px;*/
+	/*text-align: center;*/
+}
+
+#socialmedia .social-button{
+	float: left;
+	/*width: 70px;*/
+	margin-right: 33px;
+	text-align: center;
+}
+#socialmedia .social-button .number{
+	font-size: 25px;
+	/*color: #112f99;*/
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+}
+#socialmedia .social-button .icon{
+
+	width: 30px;
+	height: 30px;
+	border: solid 1px #112f99;
+	border-radius: 100%;
+	margin: 0 auto;
+}

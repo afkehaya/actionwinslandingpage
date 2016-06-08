@@ -1,0 +1,86 @@
+
+    <div id="header-bar">
+      <div id="logo-and-nav" class="clearfix">
+
+        <!-- <div id="logo-with-title"><img src="./images/logo-with-title.svg"></div> -->
+        <div id="logo-with-title-at-right"><%= image_tag 'logo-with-title-at-right.svg' %></div>
+
+        <!-- <ul id="header-nav">
+          <li><a href="homepage.html">Setup step 1</a></li>
+          <li><a href="stack-of-options1">Setup step 2</a></li>
+          <li><a href="stack-of-options2">Setup step 3</a></li>
+          <li><a href="bubble-closed-desktop.html">Desktop View 1</a></li>
+          <li><a href="bubble-open-desktop.html">Desktop View 2</a></li>
+          <li><a href="bubble-closed-mobile.html">Mobile View 1</a></li>
+          <li><a href="bubble-open-mobile.html">Mobile View 2</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+        </ul> -->
+      </div>
+    </div>
+  <div class="container">
+    <div class="headline text-center">
+      <h1> Add referral marketing to your application with just a few lines of code.</h1>
+      <h2> Time to start growing your product today. Request a demo.</h2>
+      <br>
+      <form class="form-inline" role="form">
+        <div class="form-group">
+          <input type="text" class="form-control" id="email" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Company Name">
+        </div>
+        <button type="submit" class="btn btn-warning">Get Early Access</button>
+      </form>
+    </div>
+  </div>
+    <!-- header-bar -->
+      <!-- Desktop Views -->
+      <div class="desktop-views">
+        <div class="container">
+          <%= render 'step1' %>
+          <hr/>
+            <%= render 'step2' %>
+
+        </div>
+
+        <div class="example-views">
+            <hr/>
+          <%= render 'step3' %>
+        </div>
+
+
+        <div class="example-views">
+            <hr/>
+          <%= render 'mobile_action' %>
+        </div>
+
+        <div class="example-views text-center">
+            <hr/>
+          <%= render 'dashboard' %>
+        </div>
+
+</div>
+
+<div class="container">
+  <div class="headline-bottom text-center">
+    <h1> Enter your info below to get early access.</h1>
+    <h2> Early bird customers get locked in with discount pricing for life!</h2>
+    <br>
+    <form class="form-inline" role="form">
+      <div class="form-group">
+        <input type="text" class="form-control" id="email" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" id="email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Company Name">
+      </div>
+      <button type="submit" class="btn btn-warning">Get Early Access</button>
+    </form>
+  </div>
+</div>
+<%= render 'footer' %>

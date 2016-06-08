@@ -1,0 +1,123 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*=======================
+
+    Landing Page
+
+=======================*/
+.headline {
+  padding-top: 5em;
+}
+
+.headline h1{
+	font-family : 'Open Sans';
+	font-size : 22px;
+	color : #112F99;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+.headline h2{
+	font-family : 'Open Sans';
+	font-size : 16px;
+	color : #50657C;
+	font-weight: 300;
+	margin-top: 0px;
+}
+
+.headline-bottom {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.headline-bottom h1{
+	font-family : 'Open Sans';
+	font-size : 22px;
+	color : #112F99;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+.headline-bottom h2{
+	font-family : 'Open Sans';
+	font-size : 16px;
+	color : #50657C;
+	font-weight: 300;
+	margin-top: 0px;
+}
+
+
+/*=======================
+
+  Desktop View Section
+
+=======================*/
+.desktop-site {
+  width:100%;
+  height:70%;
+}
+.desktop-views {
+  padding-top: 5em;
+  border-radius: 1%;
+}
+
+.example-views {
+  padding: 5em;
+}
+
+.mobile-example-views {
+  padding: 5em;
+}
+
+.iphone-images {
+  width: 60%;
+}
+.dashboard-landing {
+  width: 70%;
+  padding-top: 2em;
+}
+.integration-landing {
+  width: 100%;
+  padding-top: 2em;
+}
+
+.code-box {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: auto auto;
+  background-color: #f9f2f4;
+  width: 50%;
+}
+
+// Footer
+
+.footer-bg {
+  background-color: #0fbed7;
+  color: white;
+}
+
+.footer-bg ul {
+  list-style: none;
+}
+.footer-link a {
+  text-decoration:none;
+  color: #009688;
+
+}
+
+.footer-link a:hover {
+  background-color:transparent;
+  color:none;
+}
+
+.footer-link a:visited {
+  color: #009688;
+}
+
+.copywrite {
+  font-family : 'Open Sans';
+	font-size : 15px;
+	color : white;
+	font-weight: 300;
+  text-align: center;
+  padding-top: 2em;
+}
