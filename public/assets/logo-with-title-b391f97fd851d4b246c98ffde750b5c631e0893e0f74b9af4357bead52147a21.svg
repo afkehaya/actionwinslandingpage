@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 282 356" enable-background="new 0 0 282 356" xml:space="preserve">
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="141" cy="141.2" r="137"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		
+			<rect x="24.4" y="142.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -99.7969 132.4436)" opacity="0.31" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="171.2" height="87.8"/>
+		
+			<rect x="53.9" y="130.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -112.0229 161.9599)" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="171.2" height="171.2"/>
+		
+			<rect x="158" y="175.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -94.6033 205.5232)" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="85.6" height="83.5"/>
+		
+			<rect x="24.4" y="142.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -99.7969 132.4436)" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="171.2" height="87.8"/>
+	</g>
+	
+		<use xlink:href="#SVGID_1_"  overflow="visible" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+</g>
+<text transform="matrix(1 0 0 1 20.6669 340.576)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'OpenSans-Light'" font-size="48.5313">action</tspan><tspan x="133.1" y="0" fill="#FFFFFF" font-family="'OpenSans-Semibold'" font-size="48.5313">wins</tspan></text>
+</svg>
